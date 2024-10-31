@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-                git 'https://github.com/marisolcasilass/tu-repositorio.git'
+                git 'https://github.com/Kristen7770/API-Docker-Py'
             }
         }
         stage('Construir Imagen de Docker') {
